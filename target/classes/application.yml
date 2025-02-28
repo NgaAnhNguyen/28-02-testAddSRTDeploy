@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: spring-boot-react-demo
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+  datasource:
+    url: jdbc:mysql://switchyard.proxy.rlwy.net:51911/LYRIMIX
+    username: root
+    password: uMSbqhexhzsrPAGNOShCXJdvsDzPWEop
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8080
+  servlet:
+    context-path: /Lyrimix
+cloudinary:
+
+  cloud_name: duli95mss
+  api_key: 916766537418897
+  api_secret: YLMnOgR3zNyEWMJmoYI7ghF7gq0
