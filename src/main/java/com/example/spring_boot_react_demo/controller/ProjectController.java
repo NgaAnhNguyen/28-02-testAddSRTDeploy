@@ -18,6 +18,7 @@ import java.io.IOException;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 @RequestMapping("/project")
 @FieldDefaults(level =  AccessLevel.PRIVATE, makeFinal = true)
 public class ProjectController {
